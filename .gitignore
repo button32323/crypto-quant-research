@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 数据与运行时文件（本仓库不包含）
+data/**
+!data/README.md
+*.log
+.env
+state.json
+paper_log.csv
+account.json
+backups/
+reports/
+cache/
+data_daily_backtest/
+data_candidates/
+*.pdf
+
+# 系统
+.DS_Store
+Thumbs.db
